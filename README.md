@@ -1,5 +1,5 @@
 # VFIO passthrough on muxless NVIDIA GPU
-
+![working-passthrough](images/working-passthrough.png)
 ## Neofech Output
 ```bash
 OS: Ubuntu 22.04.2 LTS x86_64 
@@ -77,4 +77,4 @@ virsh nodedev-detach pci_0000_01_00_0
 modprobe vfio-pci
 ```
 
-Finally Create a VM in virt-manager and pass the GPU from the GUI
+Finally Create a VM in virt-manager and pass the GPU from the GUI.
